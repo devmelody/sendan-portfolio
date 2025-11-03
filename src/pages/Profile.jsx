@@ -1,5 +1,5 @@
 
-import avatar from "../assets/avatar.png";
+import avatar from "../assets/avatar.jpg";
 // eslint-disable-next-line no-unused-vars
 import { delay, motion } from "framer-motion";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -100,7 +100,7 @@ function Profile() {
               variants={slideDown}
               initial="hidden"
               animate="show"
-              className="font-bold text-2xl mb-5 md:text-5xl whitespace-nowrap"
+              className="font-bold text-2xl mb-5 md:text-5xl"
             >
               I am Abasiofon Sendan
             </motion.h1>
@@ -170,7 +170,7 @@ function Profile() {
           initial="hidden"
           animate="show" className="mt-7 md:flex md:justify-end">
           <img
-            className="size-64 border rounded-2xl"
+            className="size-40 md:size-64 border rounded-2xl"
             src={avatar}
             alt="Abasiofon Sendan"
           />
